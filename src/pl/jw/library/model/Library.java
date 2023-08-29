@@ -8,8 +8,8 @@ import java.util.*;
 
 public class Library implements Serializable {
 
-    private Map<String, Publication> publications = new HashMap<>();
-    private Map<String, LibraryUser> users = new HashMap<>();
+    private final Map<String, Publication> publications = new HashMap<>();
+    private final Map<String, LibraryUser> users = new HashMap<>();
 
     public Map<String, Publication> getPublications() {
         return publications;
